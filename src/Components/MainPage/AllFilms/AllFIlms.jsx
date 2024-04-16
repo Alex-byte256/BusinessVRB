@@ -3,6 +3,7 @@ import Container from "../../Container/Container";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import FilmItem from "../TopRatedFilms/FilmItem/FilmItem";
+import host from "../../../host/host";
 
 
 function AllFilms() {
@@ -12,7 +13,7 @@ function AllFilms() {
 
 
     useEffect(()=>{
-        axios.get(`http://localhost:3001/movies`).then(res =>{
+        axios.get(`${host}movies`).then(res =>{
             setMovieList(res.data)
             setFilteredMovieList(res.data)
         }).catch(err =>{
