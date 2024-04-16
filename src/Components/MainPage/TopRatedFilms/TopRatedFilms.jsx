@@ -2,8 +2,6 @@ import Container from "../../Container/Container";
 import css from "./TopRatedFilms.module.css"
 import {useEffect, useState} from "react";
 import axios from "axios";
-import posterNotFound from "../../../img/posterNotFound.png";
-import star from "../../../img/star.png"
 import FilmItem from "./FilmItem/FilmItem";
 
 function TopRatedFilms() {
