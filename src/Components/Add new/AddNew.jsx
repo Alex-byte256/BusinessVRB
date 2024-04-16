@@ -3,9 +3,11 @@ import {useState} from "react";
 import css from "./AddNew.module.css"
 import axios from "axios";
 import host from "../../host/host";
+import {useNavigate} from "react-router-dom";
 
 
 function AddNew() {
+    const navigate = useNavigate()
 
     const [formData, setFormData] = useState({
         title: '',
@@ -55,7 +57,7 @@ function AddNew() {
                     director: '',
                     image: ''
                 });
-               window.location.reload()
+                navigate("/")
             }).catch(err=>{
                 console.log(err)
             })

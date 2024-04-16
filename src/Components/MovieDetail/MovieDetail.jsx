@@ -82,7 +82,7 @@ function MovieDetail({el}) {
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.put(`${host}movies/${el.id}`, formData).then(()=>{
-            window.location.reload()
+            navigate('/')
         }).catch(err=>{
             console.log(err)
         })
