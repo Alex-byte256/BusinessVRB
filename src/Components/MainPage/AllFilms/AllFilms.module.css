@@ -1,0 +1,35 @@
+.headSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    gap: 10px;
+}
+.allFilmsSection{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.inputName{
+    border: none;
+    border-bottom: 1px solid;
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+.inputName::placeholder{
+    font-weight: 600;
+    color: #f2f2f2;
+}
+
+.allFIlmList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.allFilmsTitle{
+    margin-bottom: 30px;
+}

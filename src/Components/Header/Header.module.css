@@ -1,0 +1,30 @@
+.headerLinkList{
+    list-style: none;
+
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    justify-content: center;
+}
+
+a.link{
+    text-decoration: none;
+
+    color: #a19e9e;
+
+    transition: all ease-in-out 1s;
+}
+
+a.link.active{
+    color: #f2f2f2;
+}
+
+a.link:hover{
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+.headerSection{
+    padding: 15px;
+    background-color: #071a2b;
+}

@@ -1,0 +1,16 @@
+.topTatedTitle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.topRatedList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.topRatedSection{
+    padding-bottom: 60px;
+}
+

@@ -1,0 +1,45 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form label{
+    margin-top: 30px;
+}
+
+.Form input{
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    width: 300px;
+}
+
+.Form textarea{
+    border:  1px solid #f2f2f2;
+    width: 300px;
+}
+
+.Form button{
+    margin-top: 30px;
+    border:none;
+    background-color: #071a2b;
+    padding: 10px;
+    transition: all ease-in-out 1s;
+    border-radius: 10px;
+}
+
+.formSection{
+    padding-bottom: 60px;
+}
+
+.Form button:hover{
+    cursor: pointer;
+    background-color: #113f69;
+
+}
+
+.Form select{
+    cursor: pointer;
+    background-color: #071a2b;
+    border: none;
+}
