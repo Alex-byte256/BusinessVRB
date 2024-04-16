@@ -19,14 +19,11 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
     },
     {
-      "id": "3",
-      "title": "The Dark Knight",
+      "title": "The Dark Knight test",
       "description": "Bruce Wayne faces a new challenge - The Joker, who seeks to plunge Gotham into chaos.",
       "rating": 9,
       "release_date": "2008-07-18",
       "genre": [
-        "action",
-        "thriller",
         "crime"
       ],
       "actors": [
@@ -35,7 +32,8 @@
         "Aaron Eckhart"
       ],
       "director": "Christopher Nolan",
-      "image": "https://upload.wikimedia.org/wikipedia/sco/8/83/Dark_knight_rises_poster.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/sco/8/83/Dark_knight_rises_poster.jpg",
+      "id": "3"
     },
     {
       "title": "Schindler's List test",
@@ -327,21 +325,6 @@
       ],
       "director": "Steven Spielberg",
       "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg"
-    },
-    {
-      "id": "3b20",
-      "title": "test",
-      "description": "test",
-      "rating": "3",
-      "release_date": "2024-04-04",
-      "genre": [
-        "drama"
-      ],
-      "actors": [
-        "test"
-      ],
-      "director": "test",
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Bullet_Train_%28poster%29.jpeg/220px-Bullet_Train_%28poster%29.jpeg"
     }
   ]
 }
