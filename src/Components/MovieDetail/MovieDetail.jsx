@@ -28,7 +28,7 @@ function MovieDetail({el}) {
         if(favoritesFilm.includes(el.title)){
             setIsFavorite(true)
         }
-    },[])
+    },[el.title])
 
     const onDelete = () =>{
         axios.delete(`${host}movies/${el.id}`).then(res=>{
