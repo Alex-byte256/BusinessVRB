@@ -1,0 +1,30 @@
+.wrapHero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titleHeroWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titleHeroWrap p{
+    color: #c0bcbc;
+    max-width: 300px;
+    text-align: left;
+}
+
+.titleHeroWrap h1{
+    max-width: 300px;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.heroSection{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

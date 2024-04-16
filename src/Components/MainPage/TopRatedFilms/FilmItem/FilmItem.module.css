@@ -1,0 +1,50 @@
+.imgWrap{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ratingWrap{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: rgba(0, 0, 0, 0.49);
+    border-radius: 10px;
+}
+
+.filmItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.filmName{
+    margin: 0;
+    font-size: 16px;
+    max-width: 200px;
+    overflow-wrap: break-word;
+}
+
+.filmInfoWrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.filmDate{
+    font-weight: 600;
+}
+
+.filmItem{
+    transition: all ease-in-out 1s;
+}
+
+.filmItem:hover{
+    transform: scale(1.1);
+}
+
+.imgWrap img{
+    cursor: pointer;
+}

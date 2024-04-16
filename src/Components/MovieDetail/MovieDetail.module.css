@@ -1,0 +1,172 @@
+.filmCard{
+    display: flex;
+    padding: 25px;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filmInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.description h3{
+    text-align: left;
+}
+
+.date{
+    display: flex;
+    gap: 15px;
+}
+
+.nameInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.actors{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.genre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.director{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filmCard{
+    position: relative;
+}
+
+.deleteIcon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: all ease-in-out 1s;
+}
+
+.deleteIcon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.imgWrap{
+    position: relative;
+}
+
+.favoriteBtn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    background-color: #17cc17;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    transition: all ease-in-out 1s;
+}
+
+.favoriteBtn:hover{
+    cursor: pointer;
+    background-color: #107710;
+}
+
+.favoriteBtnRemove{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    background-color: #cc1717;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    transition: all ease-in-out 1s;
+}
+
+.favoriteBtnRemove:hover{
+    cursor: pointer;
+    background-color: #771010;
+}
+
+.btnEdit{
+    border: none;
+    padding: 10px;
+    background-color: #071a2b;
+    border-radius: 10px;
+    transition: all ease-in-out 1s;
+}
+
+.btnEdit:hover{
+    background-color: #0e395e;
+}
+
+
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form label{
+    margin-top: 30px;
+}
+
+.Form input{
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    width: 300px;
+}
+
+.Form textarea{
+    border:  1px solid #f2f2f2;
+    width: 300px;
+}
+
+.Form button{
+    margin-top: 30px;
+    border:none;
+    background-color: #071a2b;
+    padding: 10px;
+    transition: all ease-in-out 1s;
+    border-radius: 10px;
+}
+
+.formSection{
+    padding-bottom: 60px;
+}
+
+.Form button:hover{
+    cursor: pointer;
+    background-color: #113f69;
+
+}
+
+.Form select{
+    cursor: pointer;
+    background-color: #071a2b;
+    border: none;
+}

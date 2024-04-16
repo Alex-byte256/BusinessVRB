@@ -1,0 +1,14 @@
+.filmList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.favoriteSection{
+    padding-top: 60px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
