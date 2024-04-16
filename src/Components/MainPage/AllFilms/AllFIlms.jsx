@@ -19,7 +19,7 @@ function AllFilms() {
         }).catch(err =>{
             console.log(err)
         })
-    },[movieList])
+    },[])
 
     const handleSearch = (e) => {
         setSearchParams(e.target.value.toLowerCase());
